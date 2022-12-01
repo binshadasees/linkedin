@@ -1,0 +1,52 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="{% static 'styles/home.css' %}">
+
+</head>
+
+<body>
+    <div >
+
+        <div class="signup">
+            <img src="{% static 'image/link2.png' %}" alt="">
+            <h1>Sign ㏑</h1>
+            <h4>Stay updated on your professional world</h4>
+            <form>
+                <input type="Email or Phone" placeholder="Email or Phone">
+                <br> <br>
+                <input type="password"  placeholder=" password">
+                <p class="pswd"> <b> Forget password ?</b></p>
+                <button type="button" class="signin"><a href="index"><b>Sign in</b></a>  </button>
+                <p class="or">_______or_______</p>
+                <button type="button" class="sign-btn"> <img src="{% static 'image/search.png' %}" alt=""> Sign in With
+                    Google </button>
+                <br> <br>
+                <button type="button" class="sign-btn"> <img src="{% static 'image/apple-logo.png' %}" alt="">Sign in With
+                    Apple </button>
+
+            </form>
+            <div id="end">
+                <h3>✦New To Linkedin ?</h3>
+                <button id="join">☛join now</button>
+                
+                
+
+
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>

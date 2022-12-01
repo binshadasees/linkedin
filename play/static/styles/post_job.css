@@ -1,0 +1,81 @@
+body {
+    background-color: #2764d3;
+}
+
+.nav {
+    display: flex;
+    border: darkgray 2px solid;
+
+}
+
+.in h3 {
+
+    color: #0059b3;
+    border: 2px white solid;
+    border-color: #0059b3;
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    padding-left: 4px;
+    margin-left: 300px;
+
+
+}
+
+.jobs h3 {
+    color: white;
+
+}
+
+.join {
+    margin-left: 440px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.display {
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    margin-top: 40px;
+    margin-left: 500px;
+    border: 2px black solid;
+}
+
+.input {
+    height: 30px;
+    width: 350px;
+    margin-left: 20px;
+}
+
+.form_text {
+    margin-left: 20px;
+}
+
+.by_click {
+    font-size: 13px;
+    color: #0059b3;
+}
+
+.btn {
+    background-color: #0059b3;
+    color: white;
+    margin-top: 10px;
+    margin-left: 50px;
+    height: 50px;
+    width: 300px;
+    text-decoration: none;
+    border: black 2px solid;
+    border-radius: 10px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.sign {
+    color: blue;
+    font-family: serif;
+}
